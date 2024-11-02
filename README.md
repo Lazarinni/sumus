@@ -28,7 +28,7 @@ Através da aplicação, queremos conectar usuários que necessitam desse tipo d
 
 ## Veja o Site em Ação
 
-Acesse a aplicação em [link para o site](sumus.vercel.app).
+Acesse a aplicação em [link para o site](https://sumus.vercel.app/).
 
   ## Clonando o Projeto
 
