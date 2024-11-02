@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #242424;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background: #edfdff;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+}
+
+nav span {
+  font-size: 18px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container-introducao {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.introducao {
+  width: 50%;
+}
+
+.introducao p {
+  margin: 50px 0 0 0;
+  font-size: x-large;
+}
+
+.titulo {
+  color: #6beece;
+  margin: 0;
+  font-size: xx-large;
+}
+
+.paragrafo {
+  text-align: justify;
+  font-size: x-large;
+  color: #d8d8d9;
+}
+
+.container-servicos {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.servicos {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.servico {
+  flex-direction: column;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+.descricao-servico {
+  font-size: large;
+}
+
+.servico .descricao-servico,
+h2,
+.informacao ul li {
+  color: #d8d8d9;
+}
+
+.container-icone {
+  display: flex;
+  justify-content: center;
+}
+
+.container-motorista {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.motorista {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.seja-motorista {
+  width: 50%;
+}
+
+.seja-motorista p:first-child {
+  margin-top: 0;
+}
+
+p > a {
+  position: relative;
+  color: #d8d8d9;
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  background: #6beece;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0%;
+}
+
+p:hover a::after {
+  width: 100%;
+  transition: 300ms;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 20px 20px;
+  background: #1f1e1e;
+}
+
+.informacao ul {
+  padding: 0px;
+}
+
+.informacao ul li {
+  list-style: none;
+}
