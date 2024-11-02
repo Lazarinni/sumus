@@ -6,27 +6,6 @@ A "Sumus" é uma plataforma que visa facilitar a solicitação de transportes ad
 
 Através da aplicação, queremos conectar usuários que necessitam desse tipo de serviço a prestadores que oferecem transportes adaptados, promovendo uma experiência mais acessível e eficiente.
 
-## Tecnologias Usadas
-
-- **Linguagens**: [Ex: JavaScript, Python, etc.]
-- **Frameworks**: [Ex: React, Django, etc.]
-- **Banco de Dados**: [Ex: MySQL, MongoDB, etc.]
-- **Ferramentas**: [Ex: Git, Docker, etc.]
-- **Outras Tecnologias**: [Qualquer outra tecnologia relevante]
-
-## Clonando o Projeto
-
-Para clonar este projeto, siga os passos abaixo:
-
-1. **Certifique-se de ter o Git instalado** em sua máquina. Você pode baixar [aqui](https://git-scm.com/downloads).
-2. Abra o terminal ou prompt de comando.
-3. Navegue até o diretório onde você deseja clonar o projeto.
-4. Execute o seguinte comando:
-
-   ```bash
-   git clone https://github.com/usuario/nome-do-projeto.git
-
-
 ## Linguagens e ferramentas
 
 <div align="left">
