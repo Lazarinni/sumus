@@ -16,41 +16,41 @@
         <section class="c-pagamento">
             <form action="" class="c-pagamento__formulario">
                 <label class="c-pagamento__titulo" for="regiao">País ou Região</label>
-                <input type="text" name="" id="regiao" class="c-pagamento__endereco">
+                <input type="text" name="" id="regiao" class="c-pagamento__input">
                 <label class="c-pagamento__titulo" for="endereco">Endereço</label>
-                <input type="text" name="" id="endereco" class="c-pagamento__endereco">
+                <input type="text" name="" id="endereco" class="c-pagamento__input">
                 <h1>Método de Pagamento</h1>
                 <div class="c-pagamento__metodos">
                     <div class="c-pagamento__metodo--ativo">
-                        <img src="../img/cartao.svg" alt="">
+                        <img src="../img/cartao.svg" alt="" class="c-pagamento__metodo-icone">
                     </div>
                     <div class="c-pagamento__metodo">
-                        <img src="../img/google_pay.svg" alt="" class="">
+                        <img src="../img/google_pay.svg" alt=""  class="c-pagamento__metodo-icone">
                     </div>
                     <div class="c-pagamento__metodo">
-                        <img src="../img/apple_pay.svg" alt="" class="">
+                        <img src="../img/apple_pay.svg" alt=""  class="c-pagamento__metodo-icone">
                     </div>
                     <div class="c-pagamento__metodo">
-                        <img src="../img/pix.svg" alt="" class="">
+                        <img src="../img/pix.svg" alt=""  class="c-pagamento__metodo-icone">
                     </div>
                 </div>
-                <div class="c-pagamento__infomacoes-cartao">
-                    <div class="c-pagamento__informacao-cartao">
+                <div class="c-pagamento__informacoes-cartao">
+                    <div class="c-pagamento__cartao-secao">
                         <label class="c-pagamento__titulo" for="numeroCartao">Número do Cartão</label>
                         <div class="c-pagamento__numero-cartao">
-                            <input type="number" class="" id="numeroCartao">
+                            <input type="number" class="c-pagamento__input" id="numeroCartao">
                             <img src="../img/bandeira_visa.svg" alt="" class="c-pagamento__bandeira">
                             <img src="../img/bandeira_mastercard.svg" alt="" class="c-pagamento__bandeira">
                         </div>
                     </div>
-                    <div class="c-pagamento__cartao-validade">
-                        <div class="c-pagamento__informacao-cartao">
+                    <div class="c-pagamento__cartao-validade    ">
+                        <div class="c-pagamento__cartao-secao">
                             <label class="c-pagamento__titulo" for="dataExpiracao">Expira</label>
-                            <input type="date" class="" id="dataExpiracao">
+                            <input type="date" class="c-pagamento__input" id="dataExpiracao">
                         </div>
-                        <div class="c-pagamento__informacao-cartao">
+                        <div class="c-pagamento__cartao-secao">
                             <label class="c-pagamento__titulo" for="codigoCartao">CVC</label>
-                            <input type="number" id="codigoCartao">
+                            <input type="number" class="c-pagamento__input" id="codigoCartao">
                         </div>
                     </div>
                 </div>

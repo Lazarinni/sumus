@@ -24,9 +24,8 @@ main {
 }
 
 .c-pagamento {
-  display: flex;
+  max-width: 90%;
   width: 500px;
-  height: 450px;
   background: #ffff;
   padding: 30px;
 }
@@ -44,8 +43,7 @@ main {
 
 .c-pagamento__metodos {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+ gap: 10px;
 }
 
 .c-pagamento__metodo {
@@ -67,12 +65,18 @@ main {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.c-pagamento__metodo img {
+.c-pagamento__metodo-icone {
   width: 50px;
   height: 50px;
 }
 
-.c-pagamento__informacao-cartao {
+.c-pagamento__informacoes-cartao {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.c-pagamento__cartao-secao {
   display: flex;
   flex-direction: column;
 }
@@ -80,24 +84,23 @@ main {
 .c-pagamento__numero-cartao {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
 }
 
 .c-pagamento__bandeira {
-  width: 50px;
+  width: 40px;
 }
 
 .c-pagamento__cartao-validade {
   display: flex;
-  justify-content: flex-end;
   margin-top: 10px;
   gap: 5px;
 }
 
 .c-pagamento__cadastrar-cartao {
   display: flex;
-  justify-content: flex-end;
-  gap: 50px;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .c-pagamento__cartao-cancelar {
@@ -117,9 +120,6 @@ main {
   border: none;
   border-radius: 5px;
 }
-#codigoCartao,
-#dataExpiracao,
-#numeroCartao {
-  width: 250px;
-  height: 37px;
+.c-pagamento__input {
+  padding: 10px;
 }

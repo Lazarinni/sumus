@@ -5,25 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/formulario_criar_conta_passageiro.css">
+    <link rel="stylesheet" href="/css/formulario_criar_conta.css">
 </head>
 
 <body>
-    <main>
-        <img src="../img/estrada_cliente.svg" alt="" class="banner-passageiro">
-        <div class="container-formulario">
-            
-            <form action="">
-                <a href="../index.html"><img src="../img/logo_sumus_branca.svg" alt=""></a>
-                <input type="text" id="nome" placeholder="Nome">
-                <input type="email" id="email" placeholder="E-mail">
-                <input type="password" id="senha" placeholder="Senha">
+    <main class="c-main">
+        <img src="../img/estrada_cliente.svg" alt="" class="c-main__banner">
+        <div class="c-formulario">
+            <a href="../index.html">
+                <img src="../img/logo_sumus_branca.svg" alt="" class="c-formulario__logo">
+            </a>
+            <form action="" class="formulario">
+                <input type="text" id="nome" class="formulario__input formulario__input-texto" placeholder="Nome">
+                <input type="email" id="email" class="formulario__input formulario__input-email" placeholder="E-mail">
+                <input type="password" id="senha" class="formulario__input formulario__Input-senha" placeholder="Senha">
 
-                <div class="termos-e-cadastrar">
-                    <input type="checkbox" id="termos-de-uso">
-                    <label for="termos-de-uso">Aceitar termos de uso</label>
+                <div class="formulario__termos">
+                    <input type="checkbox" id="termos" class="formulario__checkbox">
+                    <label for="termos" class="formulario__label">Aceitar os termos de uso</label>
                 </div>
-                <a href="../telas_passageiro/tela_corrida_passageiro.html" class="botao-criar-conta">Criar conta</a>
+                <a href="../telas_passageiro/tela_corrida_passageiro.html" class="formulario__botao">Criar conta</a>
 
             </form>
         </div>
