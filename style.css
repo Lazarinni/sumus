@@ -44,8 +44,9 @@ nav span {
 
 .c-introducao {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
+  padding: 20px;
   margin-top: 100px;
 }
 
